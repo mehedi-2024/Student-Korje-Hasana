@@ -2,3 +2,10 @@
     overflow-x: hidden;
     min-height: 100vh;
 }
+#mobileNav li:has(a.active){
+    background: #166534;
+}
+#pcNav li:has(a.active){
+    color: #166534;
+    text-decoration: underline;
+}
